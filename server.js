@@ -20,17 +20,36 @@ app.get('/notes', (req, res) => {
 });
 
 app.get('/api/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, 'db/db.json'));
+    res.send(notes);
 });
 
 app.post('/api/notes', (req, res) => {
-    notes.push(req.body);
-    const newNotes = JSON.stringify(notes, null, 4);
-    fs.writeFile('./db/db.json', newNotes, (err) => {
-        err ? console.error(err) : console.log(
-            `Note with title "${req.body.title}" has been saved`
+    const { title, text } = req.body;
+
+    if ( title && text ) {
+        const newNote = {
+            title,
+            text
+        };
+
+        notes.push(newNote);
+        const notesString = JSON.stringify(notes, null, 4);
+        fs.writeFile('./db/db.json', notesString, (err) => {
+            err ? 
+                console.error(err)
+                : console.log(`Note with title "${req.body.title}" has been saved`);
+            }
         );
-    });
+        const response = {
+            status: 'success',
+            body: newNote
+        }
+
+        console.log(response);
+        res.status(201).json(response);
+    } else {
+        res.status(500).json('Error in posting review')
+    }
 });
 
 
