@@ -29,7 +29,7 @@ app.post('/api/notes', (req, res) => {
 
     if ( title && text ) {
         const newNote = {
-            id: uuid(),
+            id: req.body.id || uuid(),
             title,
             text
         };
