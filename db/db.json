@@ -3,5 +3,10 @@
         "id": "b42c",
         "title": "New note",
         "text": "This should have an id attached to it."
+    },
+    {
+        "id": "f097",
+        "title": "Adding a note",
+        "text": "adding a note"
     }
 ]
