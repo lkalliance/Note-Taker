@@ -1,12 +1,17 @@
 [
     {
-        "id": "b42c",
-        "title": "New note",
-        "text": "This should have an id attached to it."
+        "id": "777c",
+        "title": "This a note I just added",
+        "text": "This is the text of the note."
     },
     {
-        "id": "f097",
-        "title": "Adding a note",
-        "text": "adding a note"
+        "id": "2b82",
+        "title": "Yet another note",
+        "text": "Yet another note."
+    },
+    {
+        "id": "8e48",
+        "title": "Blah",
+        "text": "Blah"
     }
 ]
