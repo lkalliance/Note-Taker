@@ -1,8 +1,8 @@
-# Note Taker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Simple Note Taker [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-The Note Taker is a web application that enables a user to enter notes with a title and text content, and saves those notes. The user can access any note from the list and read its content. It owes its existance to our need for a very simple note-taking app, with extraneous distracting features stripped out.
+The Simple Note Taker is a web application that enables a user to enter notes with a title and text content, and saves those notes. The user can access any note from the list and read its content. It owes its existance to our need for a very simple note-taking app, with extraneous distracting features stripped out.
 
 
 ## Table of Contents
@@ -17,7 +17,7 @@ The Note Taker is a web application that enables a user to enter notes with a ti
 
 ## Installation Instructions
 
-The back end of the Note Taker is run using Express on Node.js. With Node and npm installed on the host server, choose or create a directory to house the application. Into that directory, place:
+The back end of the Simple Note Taker is run using Express on Node.js. With Node and npm installed on the host server, choose or create a directory to house the application. Into that directory, place:
 * The `public` directory and its contents
 * The `helpers` directory and its contents
 * The `routes` directory and its contents
@@ -31,7 +31,7 @@ While running, the server will default to port 3001 if an environment variable i
 
 ## Usage Information
 
-Using the Note Taker is simple: in any web browser, launch the website. From the splash screen, click the "Get Started" button to access the notes page.
+Using the Simple Note Taker is, well, simple: in any web browser, launch the website. From the splash screen, click the "Get Started" button to access the notes page.
 
 <img src="./public/assets/images/screenshot-1.png" style="width: 45%;" />
 <img src="./public/assets/images/screenshot-2.png" style="width: 45%;" />
@@ -45,14 +45,14 @@ To create a new note, click the "+" icon in the upper right corner of the page, 
 
 <img src="./public/assets/images/screenshot-3.png" style="float: right; width: 300px; margin-left: 15px;" />
 
-To test the correct operation of the Note Taker, start the server by running `npm start` in your CLI. Then run `npm test`. The testing suite is written for the jest and supertest npm modules.
+To test the correct operation of the Simple Note Taker, start the server by running `npm start` in your CLI. Then run `npm test`. The testing suite is written for the jest and supertest npm modules.
 
 The tests will confirm the appropriate operation of the GET, POST and DELETE functions of the application.
 
 
 ## Credits
 
-The Note Taker's front end was provided by the staff of the University of Minnesota Full Stack Coding Boot Camp. The back end code is written by Lee Klusky, with the help and guidance of said staff. It owes its functioning to the creators of and contributors to Node.js and npm, and to the various dependencies.
+The Simple Note Taker's front end was provided by the staff of the University of Minnesota Full Stack Coding Boot Camp. The back end code is written by Lee Klusky, with the help and guidance of said staff. It owes its functioning to the creators of and contributors to Node.js and npm, and to the various dependencies.
 
 Guidance on the user of the supertest module came from a post by Mary Gathoni at [MakeUseOf.com](https://www.makeuseof.com/express-apis-jest-test/?newsletter_popup=1).
 
