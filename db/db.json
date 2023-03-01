@@ -1,17 +1,22 @@
 [
     {
-        "id": "777c",
-        "title": "This a note I just added",
-        "text": "This is the text of the note."
+        "id": "7e6a",
+        "title": "Pick up ice cream",
+        "text": "Order numbers 35067 and 35123"
     },
     {
-        "id": "2b82",
-        "title": "Yet another note",
-        "text": "Yet another note."
+        "id": "b623",
+        "title": "Study group roster",
+        "text": "Gage\nBeatriz\nLee\nKelly"
     },
     {
-        "id": "8e48",
-        "title": "Blah",
-        "text": "Blah"
+        "id": "0f93",
+        "title": "Project 2 ideas",
+        "text": "Just kidding, I don't have any yet. :)"
+    },
+    {
+        "id": "0451",
+        "title": "Cheeseburger skillet",
+        "text": "This is yummy!"
     }
 ]
