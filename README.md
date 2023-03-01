@@ -4,6 +4,8 @@
 
 The Simple Note Taker is a web application that enables a user to enter notes with a title and text content, and saves those notes. The user can access any note from the list and read its content. It owes its existance to our need for a very simple note-taking app, with extraneous distracting features stripped out.
 
+You can try out the app [on Heroku](https://the-simple-note-taker.herokuapp.com).
+
 
 ## Table of Contents
 
@@ -24,9 +26,7 @@ The back end of the Simple Note Taker is run using Express on Node.js. With Node
 * The `package.json` file
 All application dependencies are npm modules. Run `npm i` in the CLI to download and install them.
 
-To start the server, run `npm start` in the CLI. The Note Taker is set to run using nodemon; to change the engine to simply node, edit the package.json file to replace `"nodemon server.js"` with `"node server.js"` in the `scripts` object.
-
-While running, the server will default to port 3001 if an environment variable is not set to determine the port.
+To start the server, run `npm start` in the CLI. While running, the server will default to port 3001 if an environment variable is not set to determine the port.
 
 
 ## Usage Information
